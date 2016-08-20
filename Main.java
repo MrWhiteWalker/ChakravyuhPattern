@@ -1,6 +1,6 @@
 import java.util.List;
 import java.util.ArrayList;
-public class HelloWorld {
+public class Main {
     private enum Direction {
         RIGHT,
         DOWN,
@@ -20,8 +20,8 @@ public class HelloWorld {
     
     public static void main(String[] args) {
 
-        HelloWorld helloWorld = new HelloWorld();
-        helloWorld.run();
+        Main main = new Main();
+        main.run();
     }
 
     public void run() {
